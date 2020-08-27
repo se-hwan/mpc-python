@@ -8,4 +8,4 @@ Each model subfolder contains the following:
 
 # Models
 
-- ```Bicycle model```: represents the kinematics of a simplified 2D car, also known as the bicycle model.
+- ```bicycle```: models the kinematics of a simplified 2D car, also known as the bicycle model.
