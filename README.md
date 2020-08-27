@@ -4,7 +4,7 @@ Motivated by control schemes for the MIT Cheetah, this repository was created to
 - Kinematic bicycle model
 
 # Contents
- - ```models```: Contains subfolders for each model. Model directory will have animated results and plots, along with details for how to modify trajectories and tune parameters.
+ - ```models```: Contains subfolders for each model. Model directory will have a description of the system, animated results and plots, and details for how to modify trajectories and tune parameters.
  - ```template```: Contains template code to implement MPC on new systems.
  - ```LCM [WIP]```: Lightweight communications marshalling (LCM) implementation to visualize results in the Unity engine (not required).
  - ```visualizer [WIP]```: Folder containing Unity assets, resources, and scripts to visualize results from MPC control.
