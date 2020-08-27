@@ -1,9 +1,9 @@
-#Description
+# Description
 Motivated by control schemes for the MIT Cheetah, this repository was created to better understand and learn more about model predictive control. Using the ```do-mpc``` package in Python, MPC was used for a number of different kinematic/dynamic models. Currently, MPC has been implemented on the following systems:
 
 - Kinematic bicycle model
 
-#Contents
+# Contents
  - ```models```: Contains subfolders for each model. Model directory will have animated results and plots, along with details for how to modify trajectories and tune parameters.
  - ```template```: Contains template code to implement MPC on new systems.
  - ```LCM [WIP]```: Lightweight communications marshalling (LCM) implementation to visualize results in the Unity engine (not required).
@@ -11,7 +11,7 @@ Motivated by control schemes for the MIT Cheetah, this repository was created to
  - ```A Quick Overview of MPC.pdf```: Simplified summary of the key concepts surrounding MPC.
 
 
-#Dependencies
+# Dependencies
 A ```conda``` environment running Python 3.x is recommended with the following packages
 
 - numpy
