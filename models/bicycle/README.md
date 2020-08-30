@@ -2,7 +2,7 @@
 Details of the kinematic equations used for this MPC implementation can be found here: https://borrelli.me.berkeley.edu/pdfpub/IV_KinematicMPC_jason.pdf
 
 We want to be able to guide the center of mass of the car to a desired trajectory. For this example, we'll consider the following conditions:
-- From some initial speed, acceleration, and angle, we want to be able to follow a lane
+- From some initial speed, acceleration, and angle, we want to be able to follow a lane - to this end, we will naively set the desired lateral position of the car to 0.
 - We'll define the distance from the desired trajectory as <img src="https://latex.codecogs.com/gif.latex?\hat{y}" />
 - We'll also assume some arbitrary desired speed (could be from speed limits, safety concerns, etc.) to track as opposed to some final goal distance
 - Control inputs are the steering angle, <img src="https://latex.codecogs.com/gif.latex?\phi"/>, and the acceleration, <img src="https://latex.codecogs.com/gif.latex?a" />
